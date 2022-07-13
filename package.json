@@ -1,0 +1,28 @@
+{
+  "name": "expressformation",
+  "version": "1.0.0",
+  "description": "Express Formation ntiers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node .dist/index.js",
+    "start:dev": "ts-node-dev ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aceovic/expressformation.git"
+  },
+  "author": "SM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aceovic/expressformation/issues"
+  },
+  "homepage": "https://github.com/aceovic/expressformation#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "ts-node-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
